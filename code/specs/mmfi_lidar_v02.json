@@ -1,0 +1,35 @@
+{
+ "dataset": "mmfi_lidar",
+ "version": "v0.1",
+ "spec_path": "/home/interns/unisense/code/specs/mmfi_lidar_v02.json",
+ "fps": 10.0,
+ "label_family": "h36m17",
+ "label_source": "mmfi_ir_stereo_hrnet_triangulated",
+ "rgb": null,
+ "depth": {
+  "type": "tof",
+  "sensor": "MM-Fi LiDAR point cloud (virtual pinhole for storage)",
+  "image_wh": [
+   640,
+   480
+  ],
+  "K": [
+   400.0,
+   400.0,
+   320.0,
+   240.0
+  ],
+  "f_px": 400.0,
+  "sigma0_m": 0.02,
+  "k_rel": 0.0,
+  "sigma_pix_px": 0.2886751345948129,
+  "quant_step_m": 0.0,
+  "corr_len_px": 4.0,
+  "n_eff_per_256": 64,
+  "provenance": "\uc0ac\uc804: LiDAR \uac70\ub9ac \uc7a1\uc74c \uc57d 2 cm (\uc81c\uc870\uc0ac \uc0ac\uc591 \uc218\uc900), \uc810 \uc0ac\uc774 \uc0c1\uad00 \uc791\uc74c"
+ },
+ "room": {
+  "source": "MM-Fi \ubc29 \uc88c\ud45c (\ub77c\ubca8); \ubc14\ub2e5 = LiDAR \uc790\uccb4 \ud3c9\uba74, \uc218\ud3c9 \ub9de\ucda4 = train \ud53c\ud5d8\uc790 \uc815\ub2f5 \uace8\ubc18 (calib.json)"
+ },
+ "eval_only": false
+}

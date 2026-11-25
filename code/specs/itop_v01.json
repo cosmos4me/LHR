@@ -1,0 +1,40 @@
+{
+ "dataset": "itop",
+ "version": "v0.1",
+ "fps": 10.0,
+ "depth": {
+  "type": "stereo",
+  "sensor": "Asus Xtion PRO (ITOP side)",
+  "image_wh": [
+   320,
+   240
+  ],
+  "K": [
+   [
+    285.7142857142857,
+    0,
+    160.0
+   ],
+   [
+    0,
+    285.7142857142857,
+    120.0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ],
+  "f_px": 285.7142857142857,
+  "stereo_constant_px_m": 21.43,
+  "sigma_disp_px": 0.0304,
+  "subpixel_steps": 8,
+  "sigma_pix_px": 0.2886751345948129,
+  "corr_len_px": 4.0,
+  "n_eff_per_256": 31,
+  "quant_step_m": 0.0,
+  "provenance": "사전: ITOP 코드 f = 1/0.0035 px, 주점 (160, 120); 축 잡음 1.42e-3 z^2 (Kinect v1 계열 구조광, Khoshelham 2012) 을 stereo 식 z^2 sigma_d / C 로 (C = f·b, b = 0.075 m)"
+ },
+ "note": "평가 전용 (학습 금지)"
+}

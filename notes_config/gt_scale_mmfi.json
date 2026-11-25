@@ -1,0 +1,22 @@
+{
+ "fy_gtfree": 598.12,
+ "fy_gtfree_iqr": [
+  571.3,
+  614.3
+ ],
+ "n_seq": 486,
+ "fy_fit": {
+  "A": 632.9697743098081,
+  "B": 635.913883988265
+ },
+ "s": {
+  "A": 0.9449,
+  "B": 0.9406
+ },
+ "assumptions": {
+  "head_top_to_eye_m": 0.115,
+  "ankle_to_sole_m": 0.075,
+  "joint_plane_behind_surface_m": 0.05,
+  "isotropic_xy": true
+ }
+}

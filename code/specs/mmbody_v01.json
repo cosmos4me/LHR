@@ -1,0 +1,36 @@
+{
+ "dataset": "mmbody",
+ "version": "v0.1",
+ "spec_path": "/home/interns/unisense/code/specs/mmbody_v01.json",
+ "fps": 14.0,
+ "label_family": "smplx55",
+ "label_source": "optitrack_mosh++_smplx",
+ "rgb": null,
+ "depth": {
+  "type": "tof",
+  "sensor": "Azure Kinect DK master (dataset point cloud, radar frame; virtual pinhole for storage)",
+  "image_wh": [
+   640,
+   576
+  ],
+  "K": [
+   504.0,
+   504.0,
+   320.0,
+   288.0
+  ],
+  "f_px": 504.0,
+  "sigma0_m": 0.002942219272146725,
+  "k_rel": 0.001,
+  "sigma_pix_px": 0.2886751345948129,
+  "quant_step_m": 0.001,
+  "corr_len_px": 8.0,
+  "n_eff_per_256": 31,
+  "provenance": "GT-free local-plane roughness on train inputs (r=0.03 m, >= 12 nb, line-of-sight scaled, MAD), fit sigma0 + k z over 2.5-6 m (slope < 0 -> constant weighted mean; decreasing with z = smoothing trace, so a lower bound), plus k = 0.1% z from spec; Azure Kinect spec: random <= 17 mm, systematic < 11 mm + 0.1% z"
+ },
+ "room": {
+  "source": "calib.txt optitrack (MoCap -> radar), floor = MoCap y = 0; camera = kinect_master (nominal mount)"
+ },
+ "audit": "notes/mmbody_audit.json",
+ "seg_leak": true
+}

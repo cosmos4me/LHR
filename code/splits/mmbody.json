@@ -1,0 +1,43 @@
+{
+ "note": "mmBody \uacf5\uc2dd train/test (\ud53c\ud5d8\uc790 \uacb9\uce68 \uc5c6\uc74c, \u03b2 \uac10\uc0ac). val = train \ud53c\ud5d8\uc790 \ud55c \uba85 (sequence_8, 9). \uc0ac\uc591(\u03c3_z)\uc740 train \uc785\ub825\ub9cc",
+ "train": [
+  "train/sequence_0",
+  "train/sequence_1",
+  "train/sequence_10",
+  "train/sequence_11",
+  "train/sequence_12",
+  "train/sequence_13",
+  "train/sequence_14",
+  "train/sequence_15",
+  "train/sequence_16",
+  "train/sequence_17",
+  "train/sequence_18",
+  "train/sequence_19",
+  "train/sequence_2",
+  "train/sequence_3",
+  "train/sequence_4",
+  "train/sequence_5",
+  "train/sequence_6",
+  "train/sequence_7"
+ ],
+ "val": [
+  "train/sequence_8",
+  "train/sequence_9"
+ ],
+ "test": [
+  "test/furnished__sequence_0",
+  "test/furnished__sequence_1",
+  "test/lab1__sequence_0",
+  "test/lab1__sequence_1",
+  "test/lab2__sequence_0",
+  "test/lab2__sequence_1",
+  "test/occlusion__sequence_0",
+  "test/occlusion__sequence_1",
+  "test/poor_lighting__sequence_0",
+  "test/poor_lighting__sequence_1",
+  "test/rain__sequence_0",
+  "test/rain__sequence_1",
+  "test/smoke__sequence_0",
+  "test/smoke__sequence_1"
+ ]
+}
